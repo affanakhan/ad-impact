@@ -17,7 +17,8 @@ function App() {
       {/* Don't forget to include the history module */}
       <Router history={history}>
         <header>
-          <NavBar />
+          <NavBar/>
+          
         </header>
         <Switch>
           <PrivateRoute path="/SurveyEx" component={DoASurvey} />

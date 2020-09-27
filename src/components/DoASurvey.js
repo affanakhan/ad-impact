@@ -9,22 +9,118 @@ const DoASurvey = () => {
   var surveyJSON = {
     "pages": [
      {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "imagepicker",
+        "name": "Pick 5 Images from Below",
+        "titleLocation": "top",
+        "descriptionLocation": "underTitle",
+        "choices": [
+         {
+          "value": "lion",
+          "text": "price, name, description, rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/lion.jpg"
+         },
+         {
+          "value": "giraffe",
+          "text": "rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/giraffe.jpg"
+         },
+         {
+          "value": "panda",
+          "text": "rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/panda.jpg"
+         },
+         {
+          "value": "camel",
+          "text": "rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/camel.jpg"
+         },
+         {
+          "value": "tiger",
+          "text": "rating",
+          "imageLink": "https://c402277.ssl.cf1.rackcdn.com/photos/18134/images/priority_species_small/Medium_WW226365.jpg?1574452099"
+         },
+         {
+          "value": "leopard",
+          "text": "rating",
+          "imageLink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Famur-leopard&psig=AOvVaw0VbeicGyrHYbiIVnjE4eOo&ust=1600881029710000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjUtNug_esCFQAAAAAdAAAAABAH"
+         },
+         {
+          "value": "wahle",
+          "text": "rating",
+          "imageLink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Fwhale&psig=AOvVaw03UKr98cidL9xmyg7DhTog&ust=1600881062950000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDZmuug_esCFQAAAAAdAAAAABAD"
+         }
+        ],
+        "multiSelect": true
+       }
+      ],
+      "title": "Selection 1"
+     },
+     {
+      "name": "page3",
+      "elements": [
+       {
+        "type": "imagepicker",
+        "name": "question3",
+        "title": "question4",
+        "titleLocation": "top",
+        "descriptionLocation": "underTitle",
+        "choices": [
+         {
+          "value": "lion",
+          "text": "price, name, description, rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/lion.jpg"
+         },
+         {
+          "value": "giraffe",
+          "text": "rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/giraffe.jpg"
+         },
+         {
+          "value": "panda",
+          "text": "rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/panda.jpg"
+         },
+         {
+          "value": "camel",
+          "text": "rating",
+          "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/camel.jpg"
+         },
+         {
+          "value": "tiger",
+          "text": "rating",
+          "imageLink": "https://c402277.ssl.cf1.rackcdn.com/photos/18134/images/priority_species_small/Medium_WW226365.jpg?1574452099"
+         },
+         {
+          "value": "leopard",
+          "text": "rating",
+          "imageLink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Famur-leopard&psig=AOvVaw0VbeicGyrHYbiIVnjE4eOo&ust=1600881029710000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjUtNug_esCFQAAAAAdAAAAABAH"
+         },
+         {
+          "value": "wahle",
+          "text": "rating",
+          "imageLink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Fwhale&psig=AOvVaw03UKr98cidL9xmyg7DhTog&ust=1600881062950000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDZmuug_esCFQAAAAAdAAAAABAD"
+         }
+        ],
+        "multiSelect": true
+       }
+      ],
+      "title": "Selection 2"
+     },
+     {
       "name": "page2",
       "elements": [
        {
-        "type": "rating",
+        "type": "text",
+        "name": "question1",
+        "title": "What is your name?"
+       },
+       {
+        "type": "text",
         "name": "question2",
-        "title": "Whats the biggest number here?"
-       },
-       {
-        "type": "rating",
-        "name": "question3",
-        "title": "Whats the  smallest number here?"
-       },
-       {
-        "type": "rating",
-        "name": "question4",
-        "title": "Whats the most middle number?"
+        "title": "What is your favorite?"
        }
       ]
      }
