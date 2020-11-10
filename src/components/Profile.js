@@ -4,11 +4,14 @@ import React, { Fragment } from "react";
 import { useAuth0 } from "../react-auth0-spa";
 
 const Profile = () => {
-  const { loading, user } = useAuth0();
+  const { isAuthenticated, logout, loading, user } = useAuth0();
+  // const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
 
   if (loading || !user) {
     return <div>Loading...</div>;
   }
+
+
 
   return (
     <Fragment>
@@ -16,7 +19,9 @@ const Profile = () => {
 
       <h2>{user.name}</h2>
       <p>{user.email}</p>
-      <code>{JSON.stringify(user, null, 2)}</code>
+      {isAuthenticated && (<button onClick={() => logout()}>Log out</button>)}
+
+      {/* <code>{JSON.stringify(user, null, 2)}</code> */}
     </Fragment>
   );
 };

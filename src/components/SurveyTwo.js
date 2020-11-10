@@ -5,7 +5,7 @@ import "survey-react/survey.css";
 import axios from "axios";
 import {useAuth0} from "../react-auth0-spa";
 
-const DoASurvey = () => {
+const SurveyTwo = () => {
   var surveyJSON = {
     "pages": [
      {
@@ -248,7 +248,7 @@ const DoASurvey = () => {
     //send Ajax request to your web server.
     // JSON.stringify(survey.data);
     localStorage.setItem('userEmail', user.email)
-    axios.post("http://localhost:5000/doasurvey", {
+    axios.post("http://localhost:5000/surveytwo", {
       data: survey.data,
       email: user.email
     })
@@ -268,4 +268,4 @@ const DoASurvey = () => {
   );
 };
 
-export default DoASurvey;
+export default SurveyTwo;
