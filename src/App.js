@@ -24,14 +24,14 @@ function App() {
     <div className="App">
       {/* Don't forget to include the history module */}
       <Title />
-      <Button variant="btn btn-success" onClick={() => history.push('/SurveyEx')}>Start Survey</Button>    
+      <Button variant="btn btn-success" onClick={() => history.push('/affanakhan/SurveyEx')}>Start Survey</Button>    
 
       <Router history={history}>
         <Switch>
-          <PrivateRoute path="/SurveyEx" component={DoASurvey} />
-          <PrivateRoute path="/ad-impact/surveytwo" component={SurveyTwo} />
-          <PrivateRoute path="/ad-impact/profile" component={Profile} />
-          <PrivateRoute path="/ad-impact/surveysdone" component={SurveysDone}/>
+          <PrivateRoute path="/affanakhan/SurveyEx" component={DoASurvey} />
+          <PrivateRoute path="/affanakhan/surveytwo" component={SurveyTwo} />
+          <PrivateRoute path="/affanakhan/profile" component={Profile} />
+          <PrivateRoute path="/affanakhan/surveysdone" component={SurveysDone}/>
         </Switch>
       </Router>
     </div>
