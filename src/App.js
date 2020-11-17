@@ -25,10 +25,10 @@ function App() {
       <Title />
       <Router history={history}>
         <Switch>
-          <PrivateRoute path="/SurveyEx" component={DoASurvey} />
-          <PrivateRoute path="/surveytwo" component={SurveyTwo} />
-          <PrivateRoute path="/profile" component={Profile} />
-          <PrivateRoute path="/surveysdone" component={SurveysDone}/>
+          <PrivateRoute path="/ad-impact/SurveyEx" component={DoASurvey} />
+          <PrivateRoute path="/ad-impact/surveytwo" component={SurveyTwo} />
+          <PrivateRoute path="/ad-impact/profile" component={Profile} />
+          <PrivateRoute path="/ad-impact/surveysdone" component={SurveysDone}/>
         </Switch>
       </Router>
     </div>
