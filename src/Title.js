@@ -1,7 +1,10 @@
 // src/Title.js
 
 import React from 'react'
+import NavBar from './components/NavBar';
 import './Title.css';
+// import history from "./utils/history";
+
 
 function Title() {
     return (

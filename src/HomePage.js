@@ -19,24 +19,14 @@ import { Redirect } from 'react-router';
 import './App.css'
 
 
-function App() {
+function HomePage() {
   return (
-    <div className="App">
+    <div className="HomePage">
       {/* Don't forget to include the history module */}
-      <Title />
-      <Router history={history}>
-        <Switch>
-          <PrivateRoute path="/SurveyEx" component={DoASurvey} />
-          <PrivateRoute path="/surveytwo" component={SurveyTwo} />
-          <PrivateRoute path="/profile" component={Profile} />
-          <PrivateRoute path="/surveysdone" component={SurveysDone}/>
-        </Switch>
-      </Router>
+      <Button variant="btn btn-success" onClick={() => history.push('/SurveyEx')}>Start Survey</Button>    
     </div>
   );
 }
 //           <Route path="*" component={Profile} />
-//          <Route> path="" component={HomePage}</Route>
 
-
-export default App;
+export default HomePage;
