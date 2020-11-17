@@ -24,6 +24,8 @@ function App() {
     <div className="App">
       {/* Don't forget to include the history module */}
       <Title />
+      <Button variant="btn btn-success" onClick={() => history.push('/SurveyEx')}>Start Survey</Button>    
+
       <Router history={history}>
         <Switch>
           <PrivateRoute path="/SurveyEx" component={DoASurvey} />
