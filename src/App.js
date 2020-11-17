@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       {/* Don't forget to include the history module */}
       <Title />
-      <Button variant="btn btn-success" onClick={() => history.push('/ad-impact//SurveyEx')}>Start Survey</Button>    
+      <Button variant="btn btn-success" onClick={() => history.push('/ad-impact/SurveyEx')}>Start Survey</Button>    
 
       <Router history={history}>
         <Switch>
