@@ -24,8 +24,14 @@ function App() {
     <div className="App">
       {/* Don't forget to include the history module */}
       <Title />
-
-      <Router history={history}>
+      <DoASurvey />
+    </div>
+  );
+}
+//           <Route path="*" component={Profile} />
+//          <Route> path="" component={HomePage}</Route>
+/*
+<Router history={history}>
         <Switch>
           <Route path="/surveyex" component={DoASurvey} />
           <Route path="/surveytwo" component={SurveyTwo} />
@@ -33,11 +39,6 @@ function App() {
           <Route path="/surveysdone" component={SurveysDone}/>
         </Switch>
       </Router>
-    </div>
-  );
-}
-//           <Route path="*" component={Profile} />
-//          <Route> path="" component={HomePage}</Route>
-
+*/
 
 export default App;

@@ -247,19 +247,19 @@ const DoASurvey = () => {
    const sendDataToServer = (survey) => {
     //send Ajax request to your web server.
     // JSON.stringify(survey.data);
-    localStorage.setItem('userEmail', user.email)
-    axios.post("http://localhost:5000/doasurvey", {
-      data: survey.data,
-      email: user.email
-    })
-    .then(res => {
-      console.log(res)
-    })
-    .catch(err => {
-      console.log(err)
-    })
+      localStorage.setItem('userEmail', user.email)
+      axios.post("http://localhost:5000/doasurvey", {
+        data: survey.data,
+        email: user.email
+      })
+      .then(res => {
+        console.log(res)
+      })
+      .catch(err => {
+        console.log(err)
+      })
 
-}
+    }
 
   return (
     <div>
