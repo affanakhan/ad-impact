@@ -27,7 +27,7 @@ function App() {
 
       <Router history={history}>
         <Switch>
-          <Route path="/SurveyEx" component={DoASurvey} />
+          <Route path="/surveyex" component={DoASurvey} />
           <Route path="/surveytwo" component={SurveyTwo} />
           <Route path="/profile" component={Profile} />
           <Route path="/surveysdone" component={SurveysDone}/>

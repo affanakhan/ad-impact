@@ -23,7 +23,7 @@ function HomePage() {
   return (
     <div className="HomePage">
       {/* Don't forget to include the history module */}
-      <Button variant="btn btn-success" onClick={() => history.push('/SurveyEx')}>Start Survey</Button>    
+      <Button variant="btn btn-success" onClick={() => history.push('/surveyex')}>Start Survey</Button>    
     </div>
   );
 }
