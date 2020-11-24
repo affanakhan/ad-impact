@@ -10,7 +10,7 @@ function Title() {
     return (
       <div className="Title">
         <header>
-          <h1>Online Shopping Survey</h1>
+          <h1>Online Shopping Surveyzz</h1>
         </header>
       </div>
     )
