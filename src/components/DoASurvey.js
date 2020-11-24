@@ -17,8 +17,8 @@ const DoASurvey = () => {
         "title": "Please type your full name below."
        }
       ],
-      "title": "Survey Part 2",
-      "description": "This survey will take you a maximum of 15 minutes. We will ask you to select some products again and answer a few questions."
+      "title": "Survey Part 1",
+      "description": "This survey will take you a maximum of 15 minutes. We will ask you to select some products and answer a few questions."
      },
      {
       "name": "page1",
@@ -137,27 +137,44 @@ const DoASurvey = () => {
         "isRequired": true
        },
        {
+        "type": "image",
+        "name": "question8",
+        "imageLink": "https://i.ibb.co/dgqqHqF/mathq.jpg"
+       },
+       {
         "type": "radiogroup",
         "name": "question7",
-        "title": "5x + 3 = 7x – 1. Find x.",
+        "title": "Which tile fits the question mark above?",
         "isRequired": true,
         "choices": [
          {
           "value": "item1",
-          "text": "1/3"
-         },
-         {
-          "value": "item2",
-          "text": "1/2"
-         },
-         {
-          "value": "item3",
           "text": "1"
          },
          {
-          "value": "item4",
+          "value": "item2",
           "text": "2"
          },
+         {
+          "value": "item3",
+          "text": "3"
+         },
+         {
+          "value": "item4",
+          "text": "4"
+         },
+         {
+          "value": "item5",
+          "text": "5"
+         },
+         {
+          "value": "item6",
+          "text": "6"
+         },
+         {
+          "value": "item7",
+          "text": "7"
+         }
         ],
         "hasOther": true,
         "otherText": "8"
