@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/affanakhan/static/css/main.3be71844.chunk.css",
+    "main.js": "/affanakhan/static/js/main.0b03c264.chunk.js",
+    "main.js.map": "/affanakhan/static/js/main.0b03c264.chunk.js.map",
+    "runtime-main.js": "/affanakhan/static/js/runtime-main.c559dc85.js",
+    "runtime-main.js.map": "/affanakhan/static/js/runtime-main.c559dc85.js.map",
+    "static/css/2.60653a47.chunk.css": "/affanakhan/static/css/2.60653a47.chunk.css",
+    "static/js/2.9461006a.chunk.js": "/affanakhan/static/js/2.9461006a.chunk.js",
+    "static/js/2.9461006a.chunk.js.map": "/affanakhan/static/js/2.9461006a.chunk.js.map",
+    "index.html": "/affanakhan/index.html",
+    "precache-manifest.3c677bf9de39941ea2b8fff7cd041b80.js": "/affanakhan/precache-manifest.3c677bf9de39941ea2b8fff7cd041b80.js",
+    "service-worker.js": "/affanakhan/service-worker.js",
+    "static/css/2.60653a47.chunk.css.map": "/affanakhan/static/css/2.60653a47.chunk.css.map",
+    "static/css/main.3be71844.chunk.css.map": "/affanakhan/static/css/main.3be71844.chunk.css.map",
+    "static/js/2.9461006a.chunk.js.LICENSE": "/affanakhan/static/js/2.9461006a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c559dc85.js",
+    "static/css/2.60653a47.chunk.css",
+    "static/js/2.9461006a.chunk.js",
+    "static/css/main.3be71844.chunk.css",
+    "static/js/main.0b03c264.chunk.js"
+  ]
+}
